@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Quicksand:wght@500&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  margin-top: 35px;
+}
+
+.input_field {
+  width: 83px;
+  text-align: center;
+  margin-right: 14px;
+  height: 26px;
+  border-radius: 9px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+p {
+  margin-top: 28px;
+  font-size: 20px;
+}
+
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 29px;
+  border-radius: 9px;
+  border: none;
+  background: tomato;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 42px;
+}
+button:hover {
+  color: tomato;
+  background-color: black;
+}
